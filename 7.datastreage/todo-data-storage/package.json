@@ -1,0 +1,19 @@
+{
+  "name": "todo-data-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "file-system": "node app",
+    "sqlite3": "node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "uuid": "^8.3.2"
+  }
+}

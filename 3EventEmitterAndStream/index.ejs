@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%=title%>
+    </title>
+    <style>
+        header h1 {
+            font-size: 60pt;
+            background-color: darkcyan;
+            color: #eee;
+            text-align: right;
+            margin: 0px;
+        }
+
+        body {
+            font-size: 14pt;
+            color: #999;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <%=title%>
+        </h1>
+    </header>
+    <div role="main">
+        <p>This is <%=title%>
+        </p>
+        <p>こちらはhayakiチャンネルです。</p>
+    </div>
+    <h2>今日は<%=today%>です</h2>
+    <p>
+        <%=message%>
+    </p>
+</body>
+
+</html>
